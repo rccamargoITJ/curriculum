@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="formatacao.css">
+</head>
+<body>
+  <header>
+    <h1>Meu Curriculum Vitae</h1>
+  </header>
+  <table border="3" align="center" bgcolor="#C0C0C0" bordercolor="#000000" summary="">
+	<tr>
+		<td><a href="index.html"> Informações Pessoais </a></td>
+		<td><a href="formacao.html"> Formação</a></td>
+		<td><a href="carreira.html"> Experiência Profissional</a></td>
+		<td><s href="contato.html"> Contato </a></td>
+	</tr>
+</table>
+    <section id="Contato">
+      <h2>Contato</h2>
+      <form id="form-contato" action="enviar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="site">Site:</label>
+        <input type="url" id="site" name="site">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  <footer>
+    <p>&copy; 2024 Rodrigo Corrêa Camargo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
